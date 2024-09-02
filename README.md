@@ -89,6 +89,11 @@ e.g. Votes conted in election.
 e.g. Online gaming company, Financial institution, Real-estate website. 
 
 ### Characteristics of Relational Data
+All data is tabluar, entities are modeled as tables; All rows have the same set of column; A table can contain any number of rows; PK is unique indetifier; FK refers to a row in another related table. </br>
+In relational database, you model collections of entities from the real world as tables. (Entity: A thing about which information needs to be known.) </br>
+Primary Key (PK) indicates the column that uniquely indentify each row, every table should have one. </br> 
+Foreign Key (FK) is used to maintain the relationship between tables. </br>
+
 We have basic three types of data and for every ocasion, Azure has also differets services to runs it in the cloud.
 - Structured: It's typically Tabular Data, that is represented by rows and columns in a database.
 Azure service to runs structured data is called [*Azure SQL Database* ](https://learn.microsoft.com/en-us/azure/azure-sql/database/sql-database-paas-overview?view=azuresql)
