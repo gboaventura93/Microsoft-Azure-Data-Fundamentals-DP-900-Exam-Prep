@@ -112,6 +112,9 @@ Structure Data is basic the tables that we're used to work, where each row in a 
   
 ## 2.2 Azure data services
 ### Difference between PaaS, IaaS, and SaaS solutions
+[PaaS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-paas/)
+[IaaS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-iaas/)
+[SaaS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-saas/)
 ### Azure SQL database services (Azure SQL Database, Azure SQL Managed Instance, and SQL Service on Azure Virtual Machine)
 ### Azure Synapse Analytics
 ### Azure Database for PostgreSQL, Azure Database for MariaDB, and Azure Database for MySQL
