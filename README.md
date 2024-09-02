@@ -137,10 +137,17 @@ Structure Data is basic the tables that we're used to work, where each row in a 
 ## 3.2 Non-relational data offering on Azure
 ### Identify Azure data services for non-relational workloads
 ### Azure Cosmos DB APIs
+Globally distributed database that supports NoSQL options
+
 ### Azure Table storage
+A NoSQL store that hosts unstructured data independent of any schema
+
 ### Azure Blob storage
+Storage service for very large objects, such as video files or bitmaps/ (Blob = Binary Large Object)
+
 ### Azure File storage
-  
+File shares that can be accessed and managed like a file server
+
 ## 3.3 Basic management tasks for non-relational data
 ### Provisioning and deployment of non-relational data services
 ### Method for deployment including the Azure portal, Azure Resource Manager templates, Azure PowerShell, and the Azure command-line interface (CLI)
