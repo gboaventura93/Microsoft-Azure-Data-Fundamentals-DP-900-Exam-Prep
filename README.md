@@ -112,11 +112,28 @@ For this files, they are storage at [*Azure Blob Storage*](https://learn.microso
 # 2. Relational data on Azure
 ## 2.1 Relational data workloads
 ### Right data offering for a relational workload
+Relational Database Management Systems (RDMBS): 
+- Scalability: 
+- Balance: 
+- Data valuation:
+- Security:
+
 ### Relational Data Structures (tables, index, views)
+- Index: Helps to search for a data in a table;
+- Some relational database management systems also support clustered indexes. A clustered index physically reorganizes a table by the index key.
+
+- View: It's a virtua table based on the results set of a query.
+
 Structure Data is basic the tables that we're used to work, where each row in a table has the same set of columns.   
   
 ## 2.2 Azure data services
 ### Difference between PaaS, IaaS, and SaaS solutions
+- IaaS (Infrastructure-as-a-Service)
+SQL VMs
+- PaaS (Platform-as-a-Service)
+Azure SQL Database; Azure Database for PostgreSQL; Azure Database for MySQL; Azure Database for MariaDB
+- SaaS: 
+
 [PaaS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-paas/)
 [IaaS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-iaas/)
 [SaaS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-saas/)
