@@ -79,8 +79,15 @@ I wrote down here in this section everything that we have to know to get the DP-
 #########################################################################
 # 1. Core Data Concepts
 ## 1.1 Types of Core Data Workload 
+
 ### Streaming data
 ### Differente between Batch and Streaming data
+Depending on how the data is ingested into the system, we can process each data item as it arrives. Buffering and processing data in groups is called *Batch*, in the other way, *Streaming data* is called when it process in the real time.
+- Batch: Each new data elements are colleted into a group. So you can process data elements based on time or as a result of some event. </br>
+e.g. Votes conted in election.
+- Streaming Data: Each piace of data is process when it arrives. So, it process in real-time. </br>
+e.g. Online gaming company, Financial institution, Real-estate website. 
+
 ### Characteristics of Relational Data
 We have basic three types of data and for every ocasion, Azure has also differets services to runs it in the cloud.
 - Structured: It's typically Tabular Data, that is represented by rows and columns in a database.
