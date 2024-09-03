@@ -155,6 +155,41 @@ Azure SQL Database; Azure Database for PostgreSQL; Azure Database for MySQL; Azu
 # 3. Describe how to work with non-relational data on Azure (25-30%)
 ## 3.1 Describe non-relational data workloads
 ### Characteristics of non-relational data
+Normally it falls in two cases:
+1. Semi-structured: Data that contains fields, they don't have to be the same every entity. They must be formatted in such a way that an application can parse and process it. Normally they are storage as [JSON](https://learn.microsoft.com/en-us/sql/relational-databases/json/json-data-sql-server?view=sql-server-ver16) documents.
+It has several programs that we can used to "break up" this document from JSON format, extracting individual data: </br>
+1.1. Avro by Apache: storage data as binary </br>
+1.2. ORC by HortonWorks: Organizes data into columns rather than rows. </br>
+1.3. Parquet by Cloudera & Twitter: Contains row groups, each row group contains one or more chunks of data
+
+2. Non-structured: Unstructured data doesn't naturally contain fields. For example files like Audio, Video, Images and Media Streams. you have to storage them in a special program for this files. Such as Azure Blob Storage.
+
+In cases that we cannot know which structure of the data in advance, we can consider it as non-relational data. Where for example, the customer can have several telephone numbers as thei addresses. So in these cases, we want to save the data the fastest way as possible and we will not storage it in a relational structure now, appropriete is just to storage de data, and then process lately.
+The entity are usually storage in Key-Value (as ID field, for example).
+More advanced non-relational systems support indexing. 
+[Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/index-overview) is a non-relational system support this indexing.
+Cases we can use Non-relational databases: 
+1. IoT & telematics:
+   - Ingest large amounts of data
+   - Quick storage utilized by analytics services
+   - Real-time data processing
+2. Retail & marketing:
+   - CosmosDB for Windows Store and Xbox Live
+   - Used in the retail industry for storage and process pipelines
+3. Gaming:
+   - Databawse tier crucial
+   - Cloud delivers customized and personalized user content
+   - Low latency for speedy & greater user experience
+   - Capability to handle new game launches and feature updates
+4. Web & mobile
+   - Azure Cosmos DB commonly used
+   - Well suited for modern requirements to deliver rich user experiences
+   - Cosmos DB SDKs for iOS and Android apps via Xamarin
+
+
+
+
+
 ### Types of non-relational and NoSQL data
 ### Recommend the correct data store
 ### When to use non-relational data
