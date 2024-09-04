@@ -159,6 +159,7 @@ Relational dataases systems:
  - PostgreSQL: Hybrid relational-object database. Hybrid means it can store both relational and non-relational data. Storage and manipulation of geometric data. It has their own language, called pgsql. PostgreSQL has two deployment options, Single-server and Hyperscale: </br>
      1. Azure Database for PostgreSQL single-server: The user can choose between 3 pricing tiers where each tier has different numbers of cpus memory and storage sizes. </br>
      2. Azure Database for PostgreSQL Hyperscale (Citus): Database split across nodes, data split into chunks based on key value and useful for largest cloud deployment. </br>
+
 To migrate the data do a database running the mentionend data services, you can use Azure Database Migration Service (DMS)
   
 ## 2.3 Basic management tasks for relational data
