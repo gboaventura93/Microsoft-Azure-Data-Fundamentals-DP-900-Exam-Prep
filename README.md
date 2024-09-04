@@ -191,6 +191,9 @@ Cases we can use Non-relational databases:
 
 
 ### Types of non-relational and NoSQL data
+When reading non-relational databases, it's normal to hear about NoSQL. it's available on Azure services as Cosmos DB.
+key-value store: inserting and querying data. Key identify the data, and the value holds the data for the item. 
+
 ### Recommend the correct data store
 ### When to use non-relational data
   
