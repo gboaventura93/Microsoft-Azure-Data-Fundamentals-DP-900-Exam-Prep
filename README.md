@@ -128,15 +128,20 @@ Structure Data is basic the tables that we're used to work, where each row in a 
   
 ## 2.2 Azure data services
 ### Difference between PaaS, IaaS, and SaaS solutions
-- IaaS (Infrastructure-as-a-Service)
-SQL VMs
-- PaaS (Platform-as-a-Service)
+You can hold your database in different ways on Azure: 
+- [IaaS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-iaas/) (Infrastructure-as-a-Service): 
+Azure enables us to create Virtual infrastructure in the cloud; Virtual machines & networks; and it's the user's responsable for software installation & maintenance.
+ 
+- [PaaS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-paas/) (Platform-as-a-Service):
+Rather than creating a virtual infrastructure and installing and managing the database software by yourself, a PaaS solution does it for us. The user has to Specify the resources that they require, then, Azure atumatically creates the virtual infrastructure necessary, the user also can scale up and down as their needs.
 Azure SQL Database; Azure Database for PostgreSQL; Azure Database for MySQL; Azure Database for MariaDB
-- SaaS: 
 
-[PaaS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-paas/)
-[IaaS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-iaas/)
-[SaaS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-saas/)
+- [SaaS](https://azure.microsoft.com/en-us/resources/cloud-computing-dictionary/what-is-saas/) (Software-as-a-Service):
+Typically hosted applications rather than more generalized software such as DBMS. Common SaaS packages available on Azure include MS365. 
+
+IaaS's the most flexible category of Cloud Services. It allows the user the complete control over the hardware that runs thei application. PaaS provide the same thing but there are some additional benefits, such as database management and operating systems. SaaS has everything mentioned but again, it has some additioanl benefits as Hosted applications. 
+SaaS>PaaS>IaaS
+
 ### Azure SQL database services (Azure SQL Database, Azure SQL Managed Instance, and SQL Service on Azure Virtual Machine)
 ### Azure Synapse Analytics
 ### Azure Database for PostgreSQL, Azure Database for MariaDB, and Azure Database for MySQL
