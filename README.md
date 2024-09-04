@@ -143,8 +143,23 @@ IaaS's the most flexible category of Cloud Services. It allows the user the comp
 SaaS>PaaS>IaaS
 
 ### Azure SQL database services (Azure SQL Database, Azure SQL Managed Instance, and SQL Service on Azure Virtual Machine)
+- *Azure SQL Database*: The user create a managed databased server in the Cloud, and then deploy their databases on the server. It has several options to use Azure SQL Database:
+    1. [Single Database](https://docs.microsoft.com/en-us/azure/azure-sql/database/single-database-overview): Set and runa a single SQL Server database. It scales up and down automatically or with the user needs. </br> 
+    2. Elastic Pool (Pool is a reference to resources): Multiple databases can share de same resource such as memory, storage and processing power.  </br>
+    3. Managed Instance: High compatibility with SQL Server </br>
+- *Azure SQL Database Managed Instance*: Manages instance effectively run a fully controllable instance of SQL server in the cloud. The user can install multiple databases on same instance, and also they have all control under them. 
+
 ### Azure Synapse Analytics
+
+
 ### Azure Database for PostgreSQL, Azure Database for MariaDB, and Azure Database for MySQL
+Relational dataases systems:
+ - MySQL: It's the most frequently used by commercial organizations, althought have versions of MySQL aren't free.
+ - MariaDB: Newer DBMS created by the same developers as MySQL. The newest tool is that they built-in support for temporar data, so a table can hold serveral versions of data.
+ - PostgreSQL: Hybrid relational-object database. Hybrid means it can store both relational and non-relational data. Storage and manipulation of geometric data. It has their own language, called pgsql. PostgreSQL has two deployment options, Single-server and Hyperscale: </br>
+     1. Azure Database for PostgreSQL single-server: The user can choose between 3 pricing tiers where each tier has different numbers of cpus memory and storage sizes. </br>
+     2. Azure Database for PostgreSQL Hyperscale (Citus): Database split across nodes, data split into chunks based on key value and useful for largest cloud deployment. </br>
+To migrate the data do a database running the mentionend data services, you can use Azure Database Migration Service (DMS)
   
 ## 2.3 Basic management tasks for relational data
 ### Provisioning and deployment of relational data services
