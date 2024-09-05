@@ -164,6 +164,14 @@ To migrate the data do a database running the mentionend data services, you can 
   
 ## 2.3 Basic management tasks for relational data
 ### Provisioning and deployment of relational data services
+*Provising* is the act of running a series of tasks to create, configure, and make available a service, such as Azure SQL database.
+The service provider will set up various resources such as Disks, Memory, CPUs network. The user will be assigned these resources and they remain allocated to them and charged until they delete the service. It's not our concern how this process works, but the user has to specify parameters which will determine the size of the resources required, the user can also modify these parameters after creating a server (scaling). </br>
+Microsof has several tools that you can use to provision services, such as: </br>
+  1. Microsoft Azure Portal: Most convenient way to provision a service. </br>
+  2. Azure CLI (Command-Line Interface): Set of commands that the user can run from the OS (Operating System) prompt or the Cloud Shell. The user can create and manage these commands to create and manage Azure resources. </br>  
+  3. Azure PowerShell: Familiar to administrators, create and manage Azure resources. </br>
+  4. Azure Resource Manager templates: Describes the services that you want to deploy in a text file. Format known is .JSON, so you can define infrastructure and configuration for your project. </br>
+
 ### Methor for deployment including the Azure portal, Azure Rescourse Manager temmplates, Azure PowerShell, and the Azure command-line interface (CLI)
 ### Data security components (firewall, authentication)
 ### Basic connectivity issues (accessing from on-premises, access with Azure VNets, access from Internet, authentication, firewalls)
